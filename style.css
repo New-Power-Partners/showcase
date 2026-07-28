@@ -62,37 +62,36 @@ body{
 .nav-links a{
 
     text-decoration:none;
-
-    color:#333;
-
-    font-weight:500;
-
-    transition:.3s;
-}
-
-.nav-links a:hover{
-
-    color:#0059ff;
-}
-
-.github-button{
-
-    background:#0059ff;
+    position: relative;
+    display: inline-block;
 
     color:white;
 
-    padding:12px 20px;
+    font-weight:500;
 
-    border-radius:10px;
-
-    text-decoration:none;
-
-    transition:.3s;
+    transition:
+      color 0.35s ease,
+      transform 0.35s ease;
 }
 
-.github-button:hover{
+.nav-links a:hover{
+    color:#A9C7CB;
+}
 
-    transform:translateY(-2px);
+.nav-links a::after{
+  content:"";
+  position: absolute;
 
-    box-shadow:0 8px 20px rgba(0,89,255,.3);
+  left: 0;
+  bottom: -7px;
+
+  width:0;
+
+  height: 3px;
+
+  border-radius: 5px;
+
+  background: #A0C7CB;
+
+  transition: width .35s ease;
 }
