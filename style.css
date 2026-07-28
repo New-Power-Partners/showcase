@@ -32,7 +32,7 @@ body{
     position:sticky;
     top:0;
 
-    background:white;
+    background: rgba(68,84,104);
 
     box-shadow:0 5px 25px rgba(0,0,0,.08);
 
