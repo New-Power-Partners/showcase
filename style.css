@@ -39,13 +39,15 @@ body{
     z-index:1000;
 }
 
-.logo{
+.logo img{
+    height:50px;
+    width:auto;
+    display:block;
+}
 
-    font-size:28px;
-
-    font-weight:700;
-
-    color:#0059ff;
+.logo a{
+    display:flex;
+    align-items:center;
 }
 
 .nav-links{
