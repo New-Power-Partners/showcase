@@ -10,9 +10,13 @@
 }
 
 .head {
-  font="Roboto"
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
 }
 
 .body {
-  font="Roboto"
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
 }
