@@ -9,14 +9,88 @@
   border: none;
 }
 
-.head {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-.body {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
+body{
+    font-family:Segoe UI,Arial,sans-serif;
+}
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 60px;
+
+    position:sticky;
+    top:0;
+
+    background:white;
+
+    box-shadow:0 5px 25px rgba(0,0,0,.08);
+
+    z-index:1000;
+}
+
+.logo{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#0059ff;
+}
+
+.nav-links{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:40px;
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-weight:500;
+
+    transition:.3s;
+}
+
+.nav-links a:hover{
+
+    color:#0059ff;
+}
+
+.github-button{
+
+    background:#0059ff;
+
+    color:white;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.github-button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 20px rgba(0,89,255,.3);
 }
