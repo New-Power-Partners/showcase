@@ -109,18 +109,16 @@ img{
     position:absolute;
 
     left:0;
-
-    bottom:-7px;
+    bottom:-4px;
 
     width:0;
-
-    height:3px;
-
-    border-radius:5px;
+    height:2px;
 
     background:#A0C7CB;
 
-    transition:width .35s;
+    border-radius:2px;
+
+    transition:width .35s ease;
 }
 
 .nav-links a:hover::after{
